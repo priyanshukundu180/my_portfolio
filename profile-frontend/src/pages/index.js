@@ -7,6 +7,7 @@ import { Intro, Contact, Projects } from "components/landing";
 export default () => (
   <Layout>
     <Intro />
+    
     <Projects />
     <Contact />
   </Layout>

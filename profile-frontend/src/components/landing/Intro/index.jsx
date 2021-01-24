@@ -10,7 +10,8 @@ import linkedinLogo from 'assets/illustrations/linkedin_logo.png';
 import githubLogo from 'assets/illustrations/github_logo.png';
 import linkedinLogoWhite from 'assets/illustrations/linkedin_white.png';
 import githubLogoWhite from 'assets/illustrations/github_white.png';
-
+import my_image from 'assets/my_photo/my_photo.jpg'
+import ReactRoundedImage from "react-rounded-image";
 import { IntroWrapper, Details, Thumbnail } from './styles';
 
 export const Intro = () => {
@@ -21,7 +22,13 @@ export const Intro = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>{greeting}</h1>
+            
+        <div style={{ display: "flex",marginLeft:'440px',marginTop:'-70px'}}>
+          
+           <ReactRoundedImage image={my_image} roundedSize="-35" imageWidth="125" imageHeight="100" />
+            </div>
+         
+         <h1>{greeting}</h1>
           <h4>{greetingDescription}</h4>
           <div>
             <Button as={AnchorLink} href="#contact" className="hire-me">
