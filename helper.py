@@ -1,12 +1,3 @@
-'''
-This is the helper script for QPROFILE
-It can:
-1. Update the Module Id in metadata.json and push it to the git repo
-
-Invocation:
-> python3 helper.py --update <next_module_name>
-'''
-
 import argparse
 import fileinput
 import re
@@ -38,4 +29,3 @@ if __name__ == '__main__':
     if args.update:
         update_metadata(args.update)
         push_to_repo(args.update)
-
