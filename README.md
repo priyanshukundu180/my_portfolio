@@ -1,6 +1,2 @@
-Architecture
-
-![Alt text](About-The-Project/Architecture.png?raw=true "Optional Title")
-
-
-<img src="/About-The-Project/Architecture.png" alt="architecture" width="50%" height="50%">
+<h2>Architecture</h2>
+<img src="/About-The-Project/Architecture.png" alt="architecture" width="60%" height="60%">
