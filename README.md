@@ -1,3 +1,3 @@
 Architecture
 
-![Alt text](About-The-Project/Architecture.png/Architecture.png?raw=true "Optional Title")
+![Alt text](About-The-Project/Architecture.png?raw=true "Optional Title")
