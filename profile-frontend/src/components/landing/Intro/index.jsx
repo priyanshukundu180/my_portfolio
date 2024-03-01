@@ -5,6 +5,8 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import heroImage from 'assets/illustrations/Header.png';
+import coderImage from 'assets/illustrations/coder.webp';
+import coderAnimation from 'assets/illustrations/coding_anim_2.gif'
 import { greeting, greetingDescription, linkedinUrl, githubUrl, cvLink } from 'data/config';
 import linkedinLogo from 'assets/illustrations/linkedin_logo.png';
 import githubLogo from 'assets/illustrations/github_logo.png';
@@ -25,7 +27,7 @@ export const Intro = () => {
             
         <div style={{ display: "flex",marginLeft:'440px',marginTop:'-70px'}}>
           
-           <ReactRoundedImage image={my_image} roundedSize="-35" imageWidth="125" imageHeight="100" />
+           {/* <ReactRoundedImage image={my_image} roundedSize="-35" imageWidth="125" imageHeight="100" /> */}
             </div>
          
          <h1>{greeting}</h1>
@@ -49,8 +51,9 @@ export const Intro = () => {
           </div>
         </Details>
         <Thumbnail>
-          <img src={heroImage} alt="Crio.Do" />
-        </Thumbnail>
+          {/* <img src={heroImage} alt="Crio.Do" /> */}
+           <img style={{ borderRadius: "50px"}} src={coderAnimation} alt="a humble coder coding" /> 
+        </Thumbnail>      
       </IntroWrapper>
     </div>
   );

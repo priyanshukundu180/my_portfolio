@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'components/common';
 import contact from 'assets/illustrations/contact.png';
+import letsConnect from 'assets/illustrations/letsConnect.png'
 import { Wrapper, Details, Thumbnail } from './styles';
 import ContactForm from './ContactForm';
 
@@ -10,7 +11,7 @@ export const Contact = () => (
       <ContactForm />
     </Details>
     <Thumbnail>
-      <img src={contact} alt="Crio.Do" />
+      <img src={letsConnect} alt="Crio.Do" />
     </Thumbnail>
   </Wrapper>
 );

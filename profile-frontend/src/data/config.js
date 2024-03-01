@@ -1,7 +1,7 @@
 
 module.exports = {
   // TODO: change your profile information here
-  name: "Priyanshu Kundu",
+  name: "",
   greeting: "Hey 👋",
   greetingDescription: "I'm Priyanshu Kundu and I'm a Software Engineer!",
   githubUrl: "https://github.com/priyanshukundu180",
